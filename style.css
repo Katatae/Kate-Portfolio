@@ -31,7 +31,7 @@ body {
 
 
 .text{
-    min-width: 600px;
+    min-width: 580px;
     font-size: medium;
     padding: 1rem;
     align-self: center; 
@@ -118,5 +118,6 @@ footer {
     margin:0;
     padding: 0;
 }
+
 
 
