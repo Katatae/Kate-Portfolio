@@ -1,0 +1,120 @@
+.title {
+    font-size: xx-large;
+}
+
+header {
+    display: flex;
+    padding: 11px;
+     justify-content: space-between;
+    align-items: center;
+}
+
+.lotso {
+    top:0;
+    height: 44px;
+}
+
+
+body {
+    background: #CACAAA;
+}
+
+@media (max-width: 375px) {
+    .main {
+        flex-direction: column;
+    }}
+.main {
+    display: flex;
+    padding: 11px;
+    background: #55868C;
+}
+
+.text{
+    font-size: medium;
+    padding: 1rem;
+    align-self: center; 
+}
+
+img { 
+    align-items: center;
+    height: 146px;
+    padding: 3px;
+    flex: 1;
+    justify-content: center;
+}
+
+
+.hobby{
+    padding: 11px;
+    text-align: center;
+    font-size: medium;
+    background: #7F636E;
+    margin-top: 11px;
+
+}
+
+
+@media (max-width: 375px) {
+  .cards {
+    flex-direction: column;
+  } 
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box1 {
+    width: 345px;
+    height: 150px;
+    margin: 9px;
+    background: #7F636E;
+    background-image: url(./photos/Roof.JPG);
+    background-size: cover;
+    padding: 1rem;
+    border-radius: 11px;
+   
+    align-items: center; 
+}
+
+.box2 {
+    width: 345px;
+    height: 150px;
+    margin: 9px;
+    background: #7F636E;
+    background-image: url(./photos/Me.jpg);
+    background-size: cover;
+    padding: 1rem;
+    border-radius: 11px;
+    flex: 1 1 30;
+    align-items: center; 
+}
+
+.box3 {
+    width: 345px;
+    height: 150px;
+    margin: 9px;
+    background: #7F636E;
+    background-image: url(./photos/Drawing.JPG);
+    background-size: cover;
+    padding: 1rem;
+    border-radius: 11px;
+    flex: 1 1 30;
+    align-items: center; 
+}
+
+
+footer {
+    background: #55868C;
+    padding: 11px;
+    text-align: center;
+}
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+
